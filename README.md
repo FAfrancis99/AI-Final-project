@@ -1,15 +1,18 @@
-# AI-Final-project
-#This project explores the potential of multi-agent search algorithms in competitive environments, specifically optimizing the performance of iRobots in a room-cleaning task. The problem involves designing autonomous agents (iRobots) to navigate and clean a shared space efficiently, minimizing redundant actions while maximizing overall cleaning performance. This setup reflects real-world scenarios such as household cleaning and emphasizes the strategic dynamics of multi-agent systems, a growing area in robotics and artificial intelligence.
+# AI Final Project
 
-#To address this challenge, we employed the Minimax algorithm enhanced with Alpha-Beta pruning and integrated a Q-Learning approach for adaptive decision-making. Additionally, we implemented a time management system to ensure that the robots perform their tasks efficiently and make timely decisions.
+This project demonstrates the application of multi-agent search algorithms in a competitive environment by optimizing the performance of iRobots in a room-cleaning task. The goal is to design autonomous agents (iRobots) that can navigate and clean a shared space efficiently, reducing redundant actions and maximizing overall cleaning performance. The scenario mimics real-world tasks, such as household cleaning, while exploring the strategic dynamics of multi-agent systems—a key area in robotics and artificial intelligence.
 
-#Execution
-#Run the project using the following basic command:
+## Key Features
 
-#Copy code
-#main.py -player1 LivePlayer -player2 SimplePlayer
+- **Multi-Agent Environment**: Two competing iRobots operate in a shared space, aiming to achieve the highest cleaning efficiency.
+- **Algorithms Used**:
+  - **Minimax with Alpha-Beta Pruning**: Enhances decision-making by reducing unnecessary computations.
+  - **Q-Learning**: Implements reinforcement learning for adaptive and intelligent decision-making.
+- **Time Management**: Ensures timely and efficient task execution by the robots.
 
+## How to Execute
 
+To run the project, use the following command:
 
-
-
+```bash
+python main.py -player1 LivePlayer -player2 SimplePlayer
